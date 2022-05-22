@@ -84,9 +84,9 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'employeedb',
-        'USER' : 'root',
-        'PASSWORD' : 'Notallowed',
+        'NAME': 'db_name',
+        'USER' : 'user_name',
+        'PASSWORD' : 'your_password',
         'HOST' : '127.0.0.1',
         'PORT' : '3306'
     }
